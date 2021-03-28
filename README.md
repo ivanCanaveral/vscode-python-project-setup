@@ -12,12 +12,16 @@
   <a href="#setting-up-vscode">Setting up vscode</a> •
   <a href="#config-filse">Config files</a> •
   <a href="#autoformat">Autoformat</a> •
-  <a href="#lintingLingting</a> •
-  <a href="#type hints">Type hints</a>
+  <a href="#linting</a>Linting</a> •
+  <a href="#debug</a>Debug</a> •
+  <a href="#tests</a>Tests</a> •
+  <a href="#type-hints">Type hints</a>
 </p>
 
 ![Python Badge](https://img.shields.io/badge/-python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Visual Studio Code Badge](https://img.shields.io/badge/-vscode-007ACC?style=flat-square&logo=vscode&logoColor=white)
+
+</div>
 
 
 ## Setting up vscode
