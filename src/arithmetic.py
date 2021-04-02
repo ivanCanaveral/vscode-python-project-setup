@@ -1,15 +1,20 @@
+""" Simple maths to test """
 
-def double_me(x: int) -> int:
-    return 2*x
+def double_me(number: int) -> int:
+    """ doubles any integer """
+    return 2*number
 
 
-def square_me(x: float) -> float:
-    return x**2
+def square_me(number: float) -> float:
+    """ squares any float """
+    return number**2
 
-def factorial(x: int) -> int:
-    if x == 0:
-        return 1
-    elif x > 0:
-        return x * factorial(x - 1)
-    else:
+
+def factorial(number: int) -> int:
+    """ factorial of any non-negative number """
+    output = 1
+    if number > 0:
+        output = number * factorial(number - 1)
+    if number < 0:
         raise TypeError
+    return output
