@@ -76,7 +76,3 @@ jobs:
       - name: Running tests
         run: |
           pipenv run test
-
-      - name: Running lint
-        run: |
-          pipenv run pylint src
