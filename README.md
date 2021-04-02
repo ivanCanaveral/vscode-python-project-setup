@@ -20,6 +20,7 @@
 
 ![Python Badge](https://img.shields.io/badge/-python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Visual Studio Code Badge](https://img.shields.io/badge/-vscode-007ACC?style=flat-square&logo=vscode&logoColor=white)
+[![CI](https://github.com/ivanCanaveral/vscode-python-project-setup/actions/workflows/main.yml/badge.svg)](https://github.com/ivanCanaveral/vscode-python-project-setup/actions/workflows/main.yml)
 
 </div>
 
