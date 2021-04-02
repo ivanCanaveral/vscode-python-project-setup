@@ -72,3 +72,7 @@ jobs:
           python -m pip install --upgrade pipenv wheel
         env:
           SEED: 73
+
+      - name: Running tests
+        run: |
+          python -m unittest discover -s tests/ -p test_*.py
