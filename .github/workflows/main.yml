@@ -79,4 +79,4 @@ jobs:
 
       - name: Running lint
         run: |
-          pipenv run lint
+          pipenv run pylint src
