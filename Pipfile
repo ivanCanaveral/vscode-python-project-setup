@@ -11,3 +11,6 @@ pylint = "*"
 
 [requires]
 python_version = "3.8"
+
+[scripts]
+test = "python -m unittest discover -s tests/ -p test_*.py"
